@@ -1,11 +1,7 @@
 # Eni6ma.org 
-
-==========
-
 # On Secure Knowledge Based Authentication and Verification
 #### By Dylan Rosario (Inventor of Rosario Cypher)
 
----
 
 ## Introduction 
 Authentication, a fundamental concept in securing digital identities and systems, hinges on the act of proving an assertion, such as the identity of a user. This process, distinct from mere identification, involves verifying the claimed identity through various methods. The essence of authentication encompasses a broad spectrum, from validating personal identity documents and digital certificates to assessing the age of artifacts and ensuring product authenticity. Its application spans multiple fields, including art, antiques, anthropology, and computer science, highlighting its universal relevance in verifying origins and authenticity.
