@@ -1,5 +1,8 @@
-# ENI6MA.org
-#### The only password you will never use!
+### Eni6ma.org : The only password you will never use!
+
+#### By Dylan Rosario @soltrinox (Inventor of Rosario Cypher)
+#### Copyright 2024 All Rights Reserved
+
 ---
 
  - [Cybersecurity ](CyberSecurity.Overview.md) 
