@@ -27,11 +27,7 @@ Quantum computing emerges as a pioneering force in the landscape of technologica
 
 ## Secure By Design
 
-The Rosario Proof system and Cypher are new cryptographic tools designed to work without relying on electronic devices. This makes them suitable for various environments, including mobile devices, computers, and even isolated systems with no internet connection. The system is built with "Secure by Design" in mind, where security features are integrated from the beginning.
-
-The document argues that strong security requires a layered approach. It emphasizes the importance of building security on a foundation of cryptographic primitives like hash functions and digital signatures. These primitives are then used to create more complex security patterns such as access control and digital identities.
-
-Finally, the paper explores various security concepts in detail. These include how systems determine who has access (authority), how data history is tracked (provenance), and how to ensure actions cannot be denied (non-repudiation). It also explains how common security patterns like digital signatures and blockchain technology are used to implement these concepts. [READ MORE](Secure.By.Design.md)
+The Rosario Proof system and Cypher are new cryptographic tools designed to work without relying on electronic devices. This makes them suitable for various environments, including mobile devices, computers, and even isolated systems with no internet connection. The system is built with "Secure by Design" in mind, where security features are integrated from the beginning. The document argues that strong security requires a layered approach. It emphasizes the importance of building security on a foundation of cryptographic primitives like hash functions and digital signatures. These primitives are then used to create more complex security patterns such as access control and digital identities. Finally, the paper explores various security concepts in detail. These include how systems determine who has access (authority), how data history is tracked (provenance), and how to ensure actions cannot be denied (non-repudiation). It also explains how common security patterns like digital signatures and blockchain technology are used to implement these concepts. [READ MORE](Secure.By.Design.md)
 
 ## Security Patterns
 
