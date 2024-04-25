@@ -2,29 +2,10 @@
 
 #### by Dylan Rosario  [@soltrinox](https://github.com/soltrinox)
 
-1. **[Authentication](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#1-authentication)**: Shows the steps from user input through to system verification of credentials.
-2. **[Verification](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#2-verification)**: Details the process from data submission, hash generation, digital signature creation, to verification and outcome.
-3. **[Access Control](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#3-access-control)**: Follows the login to the access request, role verification, and access decision.
-4. **[Permissions](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#4-permissions)**: Covers the setting up of permissions by an admin to the checking of permissions during a user operation.
-5. **[Authority and Rights](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#5-authority-and-rights)**: Details the assignment of rights and checks performed during a user action.
-6. **[Voting Ballot](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#6-voting-ballot)**: Follows the process of secure voting from login to encrypted submission.
-7. **[Certification](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#7-certification)**: Covers the entire lifecycle of a digital certificate from request to usage and verification.
-8. **[Private Identity](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#8-private-identity)**: Describes steps involved in creating and managing a private identity securely.
-9. **[Sovereign Identity](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#9-sovereign-identity)**: Outlines the creation and management of a sovereign identity using blockchain technology.
-10. **[Single Sign-On (SSO)](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#10-single-sign-on-sso)**: Shows the process from initial login through to token verification and access outcome.
-11. **[Consensus](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#11-consensus)**: Details the steps from transaction initiation to the consensus process and final blockchain update.
-12. **[Authority](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#12-authority)**: Follows the role assignment to the authentication, authorization, and access decision processes, including audit logging.
-13. **[Provenance](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#13-provenance)**: Covers everything from data creation, processing, and review to audits and decision-making based on verified data.
-14. **[Non-Repudiation](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#14-non-repudiation)**: Describes the sequence from message creation and digital signing to signature verification and validation of non-denial.
-15. **[Validation of Ownership](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#15-validation-of-ownership)**: Shows the steps from ownership claim through credential verification to the validation of ownership based on matching credentials and rights.
-16. **[Verification of Ledger Log](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#16-verification-of-data)**: Details the process from transaction initiation, through authentication and signing, to the consensus process and final ledger update.
-17. **[Irrefutable Evidence](https://github.com/eni6ma-org/Fundamental-Cryptography/blob/main/Patterns.md#17-irrefutable-evidence)**: Covers the sequence from data capture, cryptographic sealing, secure storage, to the availability of verification tools and the use of data in legal and compliance contexts.
 
----
 
-# **Patterns & Primitives**
 
-# 1. Authentication
+# **1. Authentication**
 Authentication is the process of verifying the identity of a user, device, or entity before granting access to a system or resource. It often involves validating credentials such as passwords, digital certificates, or biometric data against a known record. In cryptography and security, authentication ensures that an entity is who it claims to be, preventing unauthorized access and enabling secure communication.
 
 #### Example Sequence Steps
@@ -51,7 +32,7 @@ flowchart TB
 ```
 ---
 
-# 2. Verification
+# **2. Verification**
 Verification refers to the process of confirming the truth, accuracy, or validity of something. In the context of information security, it often relates to checking the integrity and authenticity of data or software. Verification ensures that information has not been altered or tampered with, typically using cryptographic hashes or digital signatures.
 
 #### Example Sequence Steps
@@ -78,7 +59,7 @@ flowchart TB
 
 ---
 
-# 3. Access Control
+# **3. Access Control**
 Access control is a security technique that regulates who or what can view or use resources in a computing environment. It is a fundamental concept in security that minimizes risk to the business or organization. Mechanisms like role-based access control (RBAC) and mandatory access control (MAC) are used to enforce access policies, determining how users can interact with resources based on permissions.
 
 #### Example Sequence Steps
@@ -106,7 +87,7 @@ flowchart TB
 ---
 
 
-# 4. Permissions
+# **4. Permissions**
 Permissions are settings that determine the level of access a user, group, or process has to operating system resources, files, or data. They help enforce policies in access control systems, ensuring that users can only perform actions that are necessary for their role or tasks.
 
 #### Example Sequence Steps
@@ -132,7 +113,7 @@ flowchart TB
 
 --- 
 
-# 5. Authority and Rights
+# **5. Authority and Rights**
 Authority refers to the power or right given to users or processes to perform certain actions within a system, like issuing commands or modifying data. Rights are the specific privileges or permissions granted to users or processes. Both concepts are crucial in defining roles and responsibilities within an organization's IT environment.
 
 #### Example Sequence Steps
@@ -158,7 +139,7 @@ flowchart TB
 --- 
 
 
-# 6. Voting Ballot
+# **6. Voting Ballot**
 In the digital realm, a voting ballot refers to an electronic method used to cast votes in an election or survey. Cryptography ensures that the voting process is secure, anonymous, and tamper-resistant, preserving the integrity and confidentiality of the vote.
 
 #### Example Sequence Steps
@@ -185,7 +166,7 @@ flowchart TB
 
 --- 
 
-# 7. Certification
+# **7. Certification**
 Certification in IT and security often refers to the process of verifying the compliance of hardware, software, or systems with certain standards or criteria. It can also mean issuing a digital certificate which proves the identity of entities or the authenticity of objects on a network, enhancing security through encryption and access controls.
 
 #### Example Sequence Steps
@@ -212,7 +193,7 @@ flowchart TB
 
 --- 
 
-# 8. Private Identity
+# **8. Private Identity**
 A private identity is an identity used within a specific context or organization that contains personal or sensitive information. It is crucial to protect such identities using strong authentication and privacy-preserving technologies to prevent identity theft and unauthorized access.
 
 #### Example Sequence Steps
@@ -242,7 +223,7 @@ flowchart TB
 --- 
 
 
-# 9. Sovereign Identity
+# **9. Sovereign Identity**
 Sovereign identity refers to a user-centric identity model that allows individuals to own, control, and present their identity information across various services without relying on a central authority. It uses cryptographic techniques for secure, portable identity verification, often implemented through blockchain technology.
 
 #### Example Sequence Steps
@@ -269,7 +250,7 @@ flowchart TB
 
 --- 
 
-# 10. Single Sign-On (SSO)
+# **10. Single Sign-On (SSO)**
 Single Sign-On (SSO) is an authentication process that allows a user to access multiple applications or systems with one set of credentials. This simplifies the user experience and enhances security by reducing the number of passwords users must manage and potentially expose to risk.
 
 #### Example Sequence Steps
@@ -297,7 +278,7 @@ flowchart TB
 
 --- 
 
-# 11. Consensus
+# **11. Consensus**
 Consensus in the context of distributed systems, particularly blockchain and decentralized technologies, refers to the agreement among network nodes on the validity and state of a piece of data or transaction. This mechanism is crucial to maintain a unified ledger in environments without a central authority, ensuring that all copies of the distributed database are synchronized. Consensus algorithms, such as Proof of Work (PoW) or Proof of Stake (PoS), help resolve conflicts and prevent issues like double-spending by agreeing on a single history of transactions.
 
 #### Example Sequences
@@ -324,7 +305,7 @@ flowchart TB
 
 --- 
 
-# 12. Authority
+# **12. Authority**
 Authority in systems and network security refers to the entity or mechanism responsible for controlling, regulating, or managing access rights and permissions within a system. Authority can be centralized, such as in a traditional hierarchical organization where decisions are made by a single administrative entity, or decentralized, where control is distributed among multiple parties or nodes. In cybersecurity, authority also relates to entities that issue digital certificates, like Certificate Authorities (CA), which validate the identity of other entities within the network.
 
 #### Example Sequences
@@ -352,7 +333,7 @@ flowchart TB
 
 --- 
 
-# 13. Provenance
+# **13. Provenance**
 Provenance in information systems refers to the chronology of the ownership, custody, or location of an object, often providing a detailed history of the data including where it originated and the process it has undergone. Provenance is used extensively in data science, digital archives, and blockchain applications to ensure data integrity, auditability, and compliance. It allows users to verify that the data has not been altered inappropriately and to trace back to the source of information for validation purposes.
 
 #### Example Sequences
@@ -380,7 +361,7 @@ flowchart TB
 
 --- 
 
-# 14. Non-Repudiation
+# **14. Non-Repudiation**
 Non-repudiation in cybersecurity and digital communications ensures that a party in a transaction cannot deny the authenticity of their signature on a message or the sending party of a message that it originated from. This is crucial for legal, business, and security contexts where it is important to prove that a specific action occurred and that the party involved cannot dispute their participation. Non-repudiation is often implemented using cryptographic techniques like digital signatures, where the signing party’s private key generates a signature that can be independently verified by anyone with access to the public key.
 
 #### Example Sequences
@@ -408,7 +389,7 @@ flowchart TB
 
 --- 
 
-# 15. Validation of Ownership
+# **15. Validation of Ownership**
 Validation of ownership refers to the process of proving that a particular entity owns a specific resource or asset. In digital systems, this often involves cryptographic methods to verify that the person claiming to own a digital asset, such as digital tokens, software licenses, or online identities, indeed holds the correct credentials or cryptographic keys associated with the ownership. Validation of ownership is fundamental in areas such as digital rights management (DRM), blockchain transactions, and access to secured digital content.
 
 #### Example Sequences
@@ -432,7 +413,7 @@ flowchart TB
 
 ---
 
-# 16. Verification of Data
+# **16. Verification of Data**
 Verification of CRUD (Create, Read, Update, Delete) methods on an arbitrary ledger log involves ensuring that any operations performed on the ledger are authenticated, authorized, and consistent with the ledger’s rules. In distributed ledgers, such as blockchains, this verification process includes checking that the transaction blocks (which could contain CRUD operations) are correctly signed, valid according to the consensus rules, and properly linked to the blockchain. This ensures the integrity and continuity of the ledger.
 
 
@@ -460,7 +441,7 @@ flowchart TB
 
 ---
 
-# 17. Irrefutable Evidence
+# **17. Irrefutable Evidence**
 Irrefutable evidence in the context of digital systems refers to data or information that is so securely captured and stored that it cannot be disputed. This often involves using cryptographic techniques to seal and timestamp data, thereby providing a tamper-proof record that can be critical in legal disputes, financial audits, or security incident investigations. Irrefutable evidence is crucial for ensuring that records, once written, remain unchanged and are easily verifiable by third parties without any possibility of tampering.
 
 #### Example Sequences
