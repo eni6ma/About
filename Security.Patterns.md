@@ -1,4 +1,4 @@
-# Security Primitives & Patterns
+# Security Patterns
 
 #### by Dylan Rosario  [@soltrinox](https://github.com/soltrinox)
 
