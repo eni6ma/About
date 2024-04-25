@@ -269,9 +269,7 @@ To fully grasp the financial breadth required before the system can perform its 
 
 The basic equation summarizing the total build and operational cost for the first year is as follows:
 
-$$
-\text{Total Cost} = (\text{R\&D Cost} + \text{Hardware Cost} + \text{Supercomputer Cost}) + (\text{Annual Operating Cost})
-$$
+### Total Cost = R&D Cost + Quantum Hardware Cost + Supercomputer  + Annual Operating Cost 
 
 Where the annual operating cost combines the operational expenses of both the quantum computer and its supporting infrastructure.
 
