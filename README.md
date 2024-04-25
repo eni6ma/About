@@ -69,7 +69,7 @@ The Rosario Proof system and Cypher are new cryptographic tools designed to work
 
 
 ---
-
+## Quantum Attacks on Contemporary Cyphers
 
 The best method known for solving languages in NP deterministically uses exponential time. (Remember, computers are deterministic by their very nature.) NP $i$ (exponential time) defined as :
 
