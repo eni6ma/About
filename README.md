@@ -1,5 +1,8 @@
-# ENI6MA.org
-#### The only password you will never use!
+### Eni6ma.org : The only password you will never use!
+
+#### By Dylan Rosario @soltrinox (Inventor of Rosario Cypher)
+#### Copyright 2024 All Rights Reserved
+
 ---
 
  - [Cybersecurity ](CyberSecurity.Overview.md) 
@@ -69,7 +72,7 @@ The Rosario Proof system and Cypher are new cryptographic tools designed to work
 
 
 ---
-
+## Quantum Attacks on Contemporary Cyphers
 
 The best method known for solving languages in NP deterministically uses exponential time. (Remember, computers are deterministic by their very nature.) NP $i$ (exponential time) defined as :
 
